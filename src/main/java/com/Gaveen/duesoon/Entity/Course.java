@@ -1,4 +1,4 @@
-package com.Gaveen.duesoon;
+package com.Gaveen.duesoon.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
