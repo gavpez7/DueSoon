@@ -50,14 +50,14 @@ public class Task {
     public TaskType getType() { return type; }
     public void setType(TaskType type) { this.type = type; }
 
-    public LocalDateTime getdueAt() { return dueAt; }
-    public void setdueAt(LocalDateTime dueAt) { this.dueAt = dueAt; }
+    public LocalDateTime getDueAt() { return dueAt; }
+    public void setDueAt(LocalDateTime dueAt) { this.dueAt = dueAt; }
 
-    public int getweightPercent() { return weightPercent; }
-    public void setweightPercent(int weightPercent) { this.weightPercent = weightPercent; }
+    public int getWeightPercent() { return weightPercent; }
+    public void setWeightPercent(int weightPercent) { this.weightPercent = weightPercent; }
 
-    public double getHours() { return estimatedHours; }
-    public void setHours(double estimatedHours) { this.estimatedHours = estimatedHours; }
+    public double getEstimatedHours() { return estimatedHours; }
+    public void setEstimatedHours(double estimatedHours) { this.estimatedHours = estimatedHours; }
 
     public TaskStatus getStatus() { return status; }
     public void setStatus(TaskStatus status) { this.status = status; }

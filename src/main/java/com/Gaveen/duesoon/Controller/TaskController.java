@@ -11,7 +11,7 @@ import com.Gaveen.duesoon.Entity.Task;
 import com.Gaveen.duesoon.Repository.TaskRepository;
 
 @RestController
-@RequestMapping("/api/task")
+@RequestMapping("/api/tasks")
 public class TaskController {
 
     private final TaskRepository taskRepository;
